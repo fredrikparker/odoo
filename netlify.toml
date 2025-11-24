@@ -1,7 +1,7 @@
-# Netlify build settings for the frontend. Adjust "base" if your frontend lives in a subfolder.
+# Netlify build settings. No frontend present yet, so use a no-op build to avoid failures.
 [build]
-  base = "frontend" # set to "" if the frontend is at repo root
-  command = "npm run build"
+  base = ""
+  command = "echo \"No frontend to build\""
   publish = "dist"
 
 [build.environment]
